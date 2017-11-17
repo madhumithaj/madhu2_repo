@@ -23,7 +23,7 @@
         "location": "westus",
         "locationAbbrv": "",
 
-        "prepCommon": "/dev/prepCommon.json",
+        
 
         
 
@@ -53,11 +53,11 @@
         "quote": "'",
 
         "network": {
-          "devVnetRg": "demo1rg",
-          "devVnet": "jpdc-vnet",
-          "devSubnet": "jpdc-subnet",
-          "devNodeIps": "10.5.6.26",
-          "devGatewayIp": "10.5.6.37",
+          "devVnetRg": "jpdc-arm-validation",
+          "devVnet": "jpdc-test-vnet2",
+          "devSubnet": "jpdc-test-snet2",
+          "devNodeIps": "10.46.1.26",
+          "devGatewayIp": "10.46.1.37",
           "devGatewayVnet": "jpdc-services-vnet",
           "devGatewaySubnet": "jpdc-appgateway-subnet",
           "devNodeSubnet": "jpdc-application-subnet",
@@ -76,7 +76,7 @@
     },
 
     "templateUrl": {
-      "value": "https://github.com/madhumithaj/madhu2_repo/edit/master/"
+      "value": "https://raw.githubusercontent.com/madhumithaj/madhu2_repo/master/"
     }
   }
 }
