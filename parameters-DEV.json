@@ -54,10 +54,10 @@
 
         "network": {
           "devVnetRg": "jpdc-arm-validation",
-          "devVnet": "jpdc-test-vnet2",
-          "devSubnet": "jpdc-test-snet2",
-          "devNodeIps": "10.46.1.26",
-          "devGatewayIp": "10.46.1.37",
+          "devVnet": "jpdc-arm-validation-vnet",
+          "devSubnet": "jpdc-subnet",
+          "devNodeIps": "10.45.1.26",
+          "devGatewayIp": "10.45.1.37",
           "devGatewayVnet": "jpdc-services-vnet",
           "devGatewaySubnet": "jpdc-appgateway-subnet",
           "devNodeSubnet": "jpdc-application-subnet",
