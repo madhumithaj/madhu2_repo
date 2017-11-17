@@ -263,7 +263,7 @@
           {
             "name": "ipconfig1",
             "properties": {
-              "privateIPAddress": "10.46.1.26",
+              "privateIPAddress": "10.46.1.45",
               "privateIPAllocationMethod": "Static",
               "subnet": {
                 "id": "[concat(resourceId(variables('devVnetRg'), 'Microsoft.Network/virtualNetworks', variables('devVnet')), '/subnets/', variables('devSubnet'))]"
